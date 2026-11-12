@@ -18,3 +18,5 @@
 "LargeAmountUsd2":2000.0, = <HugeAmountInMoney Value="999999" />
 "ClusterBarFilledAt":10000.0, = <FilledAt Value="4000" />
 "ClusterBarFilledAtUsd":10000.0, = <FilledAtInMoney Value="1" />
+"ZoomIndex":1, = <PriceAggregationStep Value="33" />
+"ReduceAmountsFromAThousand":true, = <ReduceAmountThousands Value="True" />
