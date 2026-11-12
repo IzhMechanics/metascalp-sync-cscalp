@@ -4,10 +4,10 @@
 в таблицу `OrderBookSettings` базы SQLite (`MetaScalp.db`).
 Зависимости: только стандартная библиотека Python (tkinter, sqlite3, xml.etree).
 
-## Файлы пути
+## Файлы пути 
 Скопировать в отдельную папку
-C:\Users\пользователь\AppData\Roaming\MetaScalp файл MetaScalp.db
-C:\Program Files (x86)\FSR Launcher\SubApps\CS\Data\ папка MVS
+C:\Users\пользователь\AppData\Roaming\MetaScalp файл MetaScalp.db 
+C:\Program Files (x86)\FSR Launcher\SubApps\CS\Data\ папка MVS 
 
 ## Соответствия (baza.txt)
 Формат, одна строка на ключ:
