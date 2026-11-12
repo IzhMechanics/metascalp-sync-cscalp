@@ -1,11 +1,13 @@
-# metascalp-sync-cscalp
-Перенос настроек тикеров из CScalp в MetaScalp
-
 # MetaScalp settings sync
 
 Переносит значения из файлов `XDSD.<MARKET>.<TICKER>_Settings.xml` (папка `MVS`)
 в таблицу `OrderBookSettings` базы SQLite (`MetaScalp.db`).
 Зависимости: только стандартная библиотека Python (tkinter, sqlite3, xml.etree).
+
+## Файлы пути
+Скопировать в отдельную папку
+C:\Users\пользователь\AppData\Roaming\MetaScalp файл MetaScalp.db
+C:\Program Files (x86)\FSR Launcher\SubApps\CS\Data\ папка MVS
 
 ## Соответствия (baza.txt)
 Формат, одна строка на ключ:
@@ -52,4 +54,3 @@ GUI: пути к базе / папке / файлу соответствий, ф
 ## Проверка
 `verify.py --db MetaScalp.db --orig MetaScalp.db` — сверяет значения 20 ключей
 из `baza.txt` с XML для всех строк рынков 58/59/60 и число ключей (119).
-
